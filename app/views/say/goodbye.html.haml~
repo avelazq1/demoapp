@@ -1,2 +1,9 @@
-%h1 Say#goodbye
-%p Find me in app/views/say/goodbye.html.haml
+%h1 Goodbye!
+%p It ws nice having you here 
+
+%p
+  Say
+  %a{:href => ":/say/hello"}
+    Hello
+    %a
+      

@@ -2,3 +2,7 @@
 %p Look what we can do!
 
 %p it is now #{@time}
+
+%p
+  Say <a href="/say/goodbye"/Goodbye
+  \!
