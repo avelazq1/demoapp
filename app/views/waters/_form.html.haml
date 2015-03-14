@@ -1,0 +1,16 @@
+= form_for(@waters) do |f|
+  - if @water.errors.any?
+    #error_explanation
+      %h2
+        = pluralize (@water.errors.count, "error")
+        prohibited this edit from being save:
+      %ul
+        - @water.errors.full_messages.each do|msg|
+          %li= msg
+  .field
+    - f.label :title
+    %br
+      - f.text_field :title
+  %div
+    class= "actions">
+    \#{f.submit}

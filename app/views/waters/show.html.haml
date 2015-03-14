@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b  title:
+  = @water. title
+%p
+  %b Description:
+  = @water.description
+
+= link_to 'Edit', edit_water_path(@water)
+\|
+= link_to 'Back', waters_path
