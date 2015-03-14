@@ -1,0 +1,8 @@
+class SayController < ApplicationController
+  def hello
+	@Time
+  end
+
+  def goodbye
+  end
+end
