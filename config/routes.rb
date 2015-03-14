@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :waters
+
   get 'say/hello'
 
   get 'say/goodbye'
