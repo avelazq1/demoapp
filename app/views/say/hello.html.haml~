@@ -4,5 +4,6 @@
 %p it is now #{@time}
 
 %p
-  Say <a href="/say/goodbye"/Goodbye
+  Time to say
+  - link_to "Goodbye" , say_goodbye_path
   \!

@@ -3,7 +3,5 @@
 
 %p
   Say
-  %a{:href => ":/say/hello"}
-    Hello
-    %a
-      
+  = succeed "!" do
+    %a{:href => "/say/hello"} Hello
